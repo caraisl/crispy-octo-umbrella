@@ -1,0 +1,96 @@
+dependent_variables:
+- header:
+    name: cross_section
+    units: $\mathrm{cm}^{2} \mathrm{GeV}^2 /\mathrm{Ar}$
+  qualifiers:
+  - name: variable_type
+    value: cross_section_measurement
+  - name: measurement_type
+    value: flux_averaged_differential_cross_section
+  - name: selectfunc
+    value: neutProjSelect.py:passes_selection_CC_1_p_0_Pi
+  - name: E_cal:prettyname
+    value: $cos\E_{cal}$
+  - name: prettyname
+    value: $d\sigma/dcos\E_{cal}$
+  - name: cos_theta_mu:projectfunc
+    value: neutProjSelect.py:projection_e_cal
+  - name: target
+    value: Ar
+  - name: probe_flux
+    value: flux-offaxis-postfit-fine
+  values:
+  - errors:
+    - label: total
+      symerror: 0.79465
+    value: 2.4286
+  - errors:
+    - label: total
+      symerror: 1.2298
+    value: 8.5153
+  - errors:
+    - label: total
+      symerror: 1.3414
+    value: 13.118
+  - errors:
+    - label: total
+      symerror: 1.4422
+    value: 14.626
+  - errors:
+    - label: total
+      symerror: 1.3447
+    value: 13.511
+  - errors:
+    - label: total
+      symerror: 1.2201
+    value: 11.082
+  - errors:
+    - label: total
+      symerror: 1.1387
+    value: 7.7675
+  - errors:
+    - label: total
+      symerror: 1.0881
+    value: 4.8498
+  - errors:
+    - label: total
+      symerror: 0.55097
+    value: 1.8232
+- header:
+    name: cross_section_neut-prediction
+    units: $cm${}^{2} /GeV^2 /Ar$
+  qualifiers:
+  - name: variable_type
+    value: cross_section_prediction
+  values:
+  - value: 2.4798
+  - value: 8.1327
+  - value: 10.624
+  - value: 10.75
+  - value: 9.395
+  - value: 7.5158
+  - value: 6.028
+  - value: 3.2004
+  - value: 0.80257
+independent_variables:
+- header:
+    name: E_cal
+  values:
+  - high: 0.35
+    low: 0.2
+  - high: 0.5
+    low: 0.35
+  - high: 0.65
+    low: 0.5
+  - high: 0.8
+    low: 0.65
+  - high: 0.95
+    low: 0.8
+  - high: 1.1
+    low: 0.95
+  - high: 1.25
+    low: 1.1
+  - high: 1.4
+    low: 1.25
+  - high: 1.6
+    low: 1.4

@@ -1,0 +1,53 @@
+---
+additional_resources:
+- description: Created with hepdata_lib 0.21.0
+  location: https://doi.org/10.5281/zenodo.1217998
+- description: Selection and projections
+  location: neutProjSelect.py
+  type: ProSelecta
+- description: official data release
+  location: https://journals.aps.org/prd/abstract/10.1103/xfs2-94m3
+- description: Use with NUISANCE3
+  location: https://github.com/NUISANCEMC/nuisance3
+- description: Adheres to the NUISANCE HEPData Conventions
+  location: https://github.com/NUISANCEMC/HEPData/tree/main
+comment: ''
+data_license:
+  description: CC0 enables reusers to distribute, remix, adapt, and build upon the
+    material in any medium or format, with no conditions.
+  name: CC0
+  url: https://creativecommons.org/publicdomain/zero/1.0/
+---
+data_file: cross_section_p_mu.yaml
+description: Extracted MicroBooNE cross section as a function of muon momentum compared
+  to the nominal NEUT MC prediction.
+keywords:
+- name: observables
+  values:
+  - DSIG/DP
+- name: reactions
+  values:
+  - NUMU C --> MU- P
+- name: phrases
+  values:
+  - Neutrino CC0Pi
+  - Cross Section
+location: FIG. 5. in the publication
+name: cross_section_p_mu
+---
+data_file: cross_section_cos_theta_mu.yaml
+description: Extracted MicroBooNE cross section as a function of muon angle compared
+  to the nominal NEUT MC prediction.
+keywords:
+- name: observables
+  values:
+  - DSIG/DP
+- name: reactions
+  values:
+  - NUMU C --> MU- P
+- name: phrases
+  values:
+  - Neutrino CC0Pi
+  - Cross Section
+location: FIG. 5. in the publication
+name: cross_section_cos_theta_mu

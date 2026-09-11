@@ -1,0 +1,153 @@
+dependent_variables:
+- header:
+    name: cross_section
+    units: $\mathrm{cm}^{2} c/\mathrm{GeV} /\mathrm{Ar}$
+  qualifiers:
+  - name: variable_type
+    value: cross_section_measurement
+  - name: measurement_type
+    value: flux_averaged_differential_cross_section
+  - name: selectfunc
+    value: neutProjSelect.py:passes_selection_CC_0_Pi
+  - name: p_mu:prettyname
+    value: $p_{\mu}$
+  - name: prettyname
+    value: $d\sigma/dp_{\mu}$
+  - name: p_mu:projectfunc
+    value: neutProjSelect.py:projection_p_mu
+  - name: target
+    value: Ar
+  - name: probe_flux
+    value: ''
+  values:
+  - errors:
+    - label: total
+      symerror: 3.0926
+    value: 6.7906
+  - errors:
+    - label: total
+      symerror: 3.1283
+    value: 16.611
+  - errors:
+    - label: total
+      symerror: 2.7209
+    value: 22.475
+  - errors:
+    - label: total
+      symerror: 3.2542
+    value: 20.958
+  - errors:
+    - label: total
+      symerror: 2.9986
+    value: 27.347
+  - errors:
+    - label: total
+      symerror: 3.0113
+    value: 22.625
+  - errors:
+    - label: total
+      symerror: 2.5616
+    value: 27.842
+  - errors:
+    - label: total
+      symerror: 2.7416
+    value: 27.034
+  - errors:
+    - label: total
+      symerror: 2.5071
+    value: 25.982
+  - errors:
+    - label: total
+      symerror: 2.3606
+    value: 25.316
+  - errors:
+    - label: total
+      symerror: 2.1285
+    value: 20.82
+  - errors:
+    - label: total
+      symerror: 1.8585
+    value: 16.093
+  - errors:
+    - label: total
+      symerror: 1.3932
+    value: 8.6809
+  - errors:
+    - label: total
+      symerror: 0.46727
+    value: 1.8026
+- header:
+    name: cross_section_neut-prediction
+    units: $cm${}^{2} c/GeV /Ar$
+  qualifiers:
+  - name: variable_type
+    value: cross_section_prediction
+  values:
+  - value: 8.275
+  - value: 15.935
+  - value: 19.924
+  - value: 20.339
+  - value: 22.943
+  - value: 23.534
+  - value: 23.223
+  - value: 23.054
+  - value: 21.34
+  - value: 20.508
+  - value: 17.225
+  - value: 13.324
+  - value: 8.1367
+  - value: 1.9362
+- header:
+    name: cross_section_neut-prediction_two
+    units: $cm${}^{2} c/GeV /Ar$
+  qualifiers:
+  - name: variable_type
+    value: cross_section_prediction
+  values:
+  - value: 7.2145
+  - value: 14.543
+  - value: 19.315
+  - value: 20.197
+  - value: 22.799
+  - value: 23.318
+  - value: 24.396
+  - value: 24.685
+  - value: 23.25
+  - value: 22.212
+  - value: 19.245
+  - value: 15.038
+  - value: 9.4305
+  - value: 2.3292
+independent_variables:
+- header:
+    name: p_mu
+    units: $\mathrm{GeV}/c$
+  values:
+  - high: 0.2
+    low: 0.1
+  - high: 0.225
+    low: 0.2
+  - high: 0.25
+    low: 0.225
+  - high: 0.275
+    low: 0.25
+  - high: 0.3
+    low: 0.275
+  - high: 0.325
+    low: 0.3
+  - high: 0.375
+    low: 0.325
+  - high: 0.425
+    low: 0.375
+  - high: 0.5
+    low: 0.425
+  - high: 0.6
+    low: 0.5
+  - high: 0.75
+    low: 0.6
+  - high: 0.95
+    low: 0.75
+  - high: 1.25
+    low: 0.95
+  - high: 2.0
+    low: 1.25

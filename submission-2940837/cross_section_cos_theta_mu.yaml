@@ -1,0 +1,272 @@
+dependent_variables:
+- header:
+    name: cross_section
+    units: $\mathrm{cm}^{2} c/\mathrm{GeV} /\mathrm{Ar}$
+  qualifiers:
+  - name: variable_type
+    value: cross_section_measurement
+  - name: measurement_type
+    value: flux_averaged_differential_cross_section
+  - name: selectfunc
+    value: neutProjSelect.py:passes_selection_CC_0_Pi
+  - name: cos_theta_mu:prettyname
+    value: $cos\theta_{\mu}$
+  - name: prettyname
+    value: $d\sigma/dcos\theta_{\mu}$
+  - name: cos_theta_mu:projectfunc
+    value: neutProjSelect.py:projection_cos_theta_mu
+  - name: target
+    value: Ar
+  - name: probe_flux
+    value: flux-offaxis-postfit-fine
+  values:
+  - errors:
+    - label: total
+      symerror: 0.38923
+    value: 2.1556
+  - errors:
+    - label: total
+      symerror: 0.42764
+    value: 2.3993
+  - errors:
+    - label: total
+      symerror: 0.54731
+    value: 2.8697
+  - errors:
+    - label: total
+      symerror: 0.63186
+    value: 3.4077
+  - errors:
+    - label: total
+      symerror: 0.56917
+    value: 3.0627
+  - errors:
+    - label: total
+      symerror: 0.57181
+    value: 3.5853
+  - errors:
+    - label: total
+      symerror: 0.4758
+    value: 3.3982
+  - errors:
+    - label: total
+      symerror: 0.5835
+    value: 4.4205
+  - errors:
+    - label: total
+      symerror: 0.81346
+    value: 5.5235
+  - errors:
+    - label: total
+      symerror: 1.1004
+    value: 5.0104
+  - errors:
+    - label: total
+      symerror: 1.0106
+    value: 5.6885
+  - errors:
+    - label: total
+      symerror: 1.0798
+    value: 6.9626
+  - errors:
+    - label: total
+      symerror: 1.0583
+    value: 6.9206
+  - errors:
+    - label: total
+      symerror: 1.0883
+    value: 9.7358
+  - errors:
+    - label: total
+      symerror: 1.1512
+    value: 10.915
+  - errors:
+    - label: total
+      symerror: 1.2498
+    value: 10.943
+  - errors:
+    - label: total
+      symerror: 1.5122
+    value: 13.054
+  - errors:
+    - label: total
+      symerror: 1.7544
+    value: 14.746
+  - errors:
+    - label: total
+      symerror: 2.5997
+    value: 19.827
+  - errors:
+    - label: total
+      symerror: 2.8048
+    value: 20.36
+  - errors:
+    - label: total
+      symerror: 2.882
+    value: 23.391
+  - errors:
+    - label: total
+      symerror: 2.9656
+    value: 28.181
+  - errors:
+    - label: total
+      symerror: 5.143
+    value: 39.267
+  - errors:
+    - label: total
+      symerror: 4.5792
+    value: 30.532
+  - errors:
+    - label: total
+      symerror: 4.5503
+    value: 38.347
+  - errors:
+    - label: total
+      symerror: 4.6531
+    value: 44.51
+  - errors:
+    - label: total
+      symerror: 4.8713
+    value: 48.084
+  - errors:
+    - label: total
+      symerror: 5.7759
+    value: 53.266
+  - errors:
+    - label: total
+      symerror: 5.9266
+    value: 40.268
+- header:
+    name: cross_section_neut-prediction
+    units: $cm${}^{2} c/GeV /Ar$
+  qualifiers:
+  - name: variable_type
+    value: cross_section_prediction
+  values:
+  - value: 1.5954
+  - value: 1.7425
+  - value: 2.1205
+  - value: 2.2838
+  - value: 2.4632
+  - value: 2.7301
+  - value: 2.7389
+  - value: 3.417
+  - value: 3.8389
+  - value: 4.4675
+  - value: 4.9555
+  - value: 5.5238
+  - value: 5.2392
+  - value: 7.0738
+  - value: 7.8106
+  - value: 9.1342
+  - value: 11.081
+  - value: 12.3
+  - value: 17.034
+  - value: 18.526
+  - value: 21.635
+  - value: 24.551
+  - value: 33.875
+  - value: 29.528
+  - value: 37.837
+  - value: 42.544
+  - value: 46.197
+  - value: 50.436
+  - value: 37.682
+- header:
+    name: cross_section_neut-prediction_two
+    units: $cm${}^{2} c/GeV /Ar$
+  qualifiers:
+  - name: variable_type
+    value: cross_section_prediction
+  values:
+  - value: 1.5954
+  - value: 1.7425
+  - value: 2.1205
+  - value: 2.2838
+  - value: 2.4632
+  - value: 2.7301
+  - value: 2.7389
+  - value: 3.417
+  - value: 3.8389
+  - value: 4.4675
+  - value: 4.9555
+  - value: 5.5238
+  - value: 5.2392
+  - value: 7.0738
+  - value: 7.8106
+  - value: 9.1342
+  - value: 11.081
+  - value: 12.3
+  - value: 17.034
+  - value: 18.526
+  - value: 21.635
+  - value: 24.551
+  - value: 33.875
+  - value: 29.528
+  - value: 37.837
+  - value: 42.544
+  - value: 46.197
+  - value: 50.436
+  - value: 37.682
+independent_variables:
+- header:
+    name: cos_theta_mu
+  values:
+  - high: -0.775
+    low: -1.0
+  - high: -0.65
+    low: -0.775
+  - high: -0.55
+    low: -0.65
+  - high: -0.45
+    low: -0.55
+  - high: -0.375
+    low: -0.45
+  - high: -0.3
+    low: -0.375
+  - high: -0.2
+    low: -0.3
+  - high: -0.125
+    low: -0.2
+  - high: -0.05
+    low: -0.125
+  - high: 0.025
+    low: -0.05
+  - high: 0.1
+    low: 0.025
+  - high: 0.175
+    low: 0.1
+  - high: 0.25
+    low: 0.175
+  - high: 0.325
+    low: 0.25
+  - high: 0.4
+    low: 0.325
+  - high: 0.475
+    low: 0.4
+  - high: 0.55
+    low: 0.475
+  - high: 0.625
+    low: 0.55
+  - high: 0.675
+    low: 0.625
+  - high: 0.725
+    low: 0.675
+  - high: 0.775
+    low: 0.725
+  - high: 0.825
+    low: 0.775
+  - high: 0.85
+    low: 0.825
+  - high: 0.875
+    low: 0.85
+  - high: 0.9
+    low: 0.875
+  - high: 0.925
+    low: 0.9
+  - high: 0.95
+    low: 0.925
+  - high: 0.975
+    low: 0.95
+  - high: 1.0
+    low: 0.975
